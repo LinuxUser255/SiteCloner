@@ -25,7 +25,7 @@ SiteCloner is a tool that processes Burp Suite sitemap XML exports and creates a
 No special installation is required. Simply clone or download this repository:
 
 ```bash
-git clone https://github.com/yourusername/SiteCloner.git
+git clone https://github.com/LinuxUser255/SiteCloner.git
 cd SiteCloner
 ````
 ## Usage
@@ -35,7 +35,14 @@ cd SiteCloner
 3. Run the script:
 
 ```bash
-   python3 clone-from-burp.py
+# Make executble
+chmod +x clone-from-burp.py
+
+# run it
+./clone-from-burp.py
+
+# or the vscode way ;P
+python3 clone-from-burp.py
 ```
 
 4. Find your cloned website in the `cloned_site` directory (or the directory specified in `OUTPUT_DIR`)
@@ -108,7 +115,11 @@ Dynamic content that requires JavaScript execution won't function in the offline
 Some relative links might not work correctly in the offline version
 The script doesn't modify links to point to local resources
 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+
+Contributions are welcome!
+
+Please feel free to submit a Pull Request.
+
 License GPL3
 
 
