@@ -108,18 +108,28 @@ cloned_site/
     └── js/
         └── script.js
 ```
-Limitations
+**Limitations**
 
 The script can only clone pages that were captured in the Burp Suite sitemap
 Dynamic content that requires JavaScript execution won't function in the offline copy
 Some relative links might not work correctly in the offline version
 The script doesn't modify links to point to local resources
-Contributing
 
-Contributions are welcome!
+<br>
 
-Please feel free to submit a Pull Request.
+**Contributing**
 
-License GPL3
+<br>
 
+**Contributions are welcome!**
+
+<br>
+
+**Please feel free to submit a Pull Request.**
+
+<br>
+
+**License GPL3**
+
+<br>
 
